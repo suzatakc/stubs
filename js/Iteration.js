@@ -42,18 +42,18 @@ const allPositiveNumbers = [-1, 3, 2, 4].every(function(item) {
     return item > 0
 })
 console.log(allPositiveNumbers)
+console.log("--------------------------------------")
 
 //find
-console.log("--------------------------------------")
 const objects = [{ id: "a" }, { id: "b" }, { id: "c" }]
 const found = objects.find(function(item) {
     return item.id === "b"
 })
 console.log(found);
+console.log("--------------------------------------")
 
 
 //find index
-console.log("--------------------------------------")
 const objects2 = [{ id: "a" }, { id: "b" }, { id: "c" }]
 const foundIndex = objects2.findIndex(function(item) {
     return item.id === "c"
