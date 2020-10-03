@@ -21,7 +21,6 @@ const evens = ints.filter(function(item) {
 console.log(evens)
 console.log("--------------------------------------")
 
-
 //reduce
 const sum = [1, 2, 3].reduce(function(result, item) {
     return result + item
@@ -51,7 +50,6 @@ const found = objects.find(function(item) {
 })
 console.log(found);
 console.log("--------------------------------------")
-
 
 //find index
 const objects2 = [{ id: "a" }, { id: "b" }, { id: "c" }]
